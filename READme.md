@@ -18,8 +18,8 @@ To use IndustriQuantify, simply open the HTML file in your browser. You will be 
 > - **Reset** : Click **_"Start again"_** to refresh the application and start a new session.
 
 > [!IMPORTANT]
+>
 > - This application is an exercise created for learning purposes and is not fully functional. It does not store tracking results in a database.
 > - ✔️/❌ Ensure valid numerical inputs for accurate calculations.
 > - ⚠️ Be cautious when deleting entries as it affects the cumulative total.
 > - 🔔 The application provides alerts for task completion or excessive production.
-

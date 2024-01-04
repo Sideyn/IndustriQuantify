@@ -1,7 +1,7 @@
 // Selecting DOM elements
-const btnSum = document.querySelector("#calcul");
-const btnDel = document.querySelector("#supprimer");
-const btnRec = document.querySelector("#recommencer");
+const btnAdd = document.querySelector("#add");
+const btnDelete = document.querySelector("#delete");
+const btnRestart = document.querySelector("#restart");
 const table = document.querySelector("table");
 const itemText = document.querySelector("#itemText");
 
@@ -29,7 +29,7 @@ function init() {
 init();
 
 // Event listener for the "Calculate" button
-btnSum.addEventListener("click", () => {
+btnAdd.addEventListener("click", () => {
   let inputValue = parseFloat(itemText.value);
 
   if (!isNaN(inputValue) && quantity > 0) {
@@ -63,7 +63,7 @@ btnSum.addEventListener("click", () => {
 });
 
 // Event listener for the "Delete" button
-btnDel.addEventListener("click", () => {
+btnDelete.addEventListener("click", () => {
   const confirmation = window.confirm(
     "Are you sure you want to delete the last line?"
   );
@@ -80,7 +80,7 @@ btnDel.addEventListener("click", () => {
 });
 
 // Event listener for the "Restart" button
-btnRec.addEventListener("click", () => {
+btnRestart.addEventListener("click", () => {
   location.reload();
 });
 
