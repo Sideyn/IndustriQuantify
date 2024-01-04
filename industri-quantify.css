@@ -78,17 +78,17 @@ button {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-#calcul {
+#add {
   background-color: #60a3bc;
   color: white;
 }
 
-#supprimer {
+#delete {
   background-color: #e55039;
   color: white;
 }
 
-#recommencer {
+#restart {
   background-color: #f6b93b;
   color: white;
 }
